@@ -1,0 +1,10 @@
+cell_id,cycle_life,charging_policy,known_collection_issue,author_quality_flag
+7,777,4.8C(80%)-4.8C-newstructure,False,False
+8,904,5.2C(58%)-4C-newstructure,False,False
+9,791,5.6C(26%)-4.5C-newstructure,False,False
+32,809,4.8C(80%)-4.8C-newstructure,False,False
+33,1140,5.2C(58%)-4C-newstructure,False,False
+34,1186,5.6C(26%)-4.5C-newstructure,False,False
+43,1029,4.8C(80%)-4.8C-newstructure,False,False
+44,841,5.2C(58%)-4C-newstructure,False,False
+45,997,5.6C(26%)-4.5C-newstructure,False,False

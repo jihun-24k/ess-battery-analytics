@@ -1,0 +1,9 @@
+feature,1,2,3
+delta_logvar,46,39,44
+delta_min,46,39,44
+mean_chargetime,46,39,44
+mean_charge_current,46,39,44
+peak_charge_current,46,39,44
+mean_Tavg,46,39,44
+mean_Tmax,46,39,44
+mean_IR,46,33,44

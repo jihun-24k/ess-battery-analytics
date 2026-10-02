@@ -1,0 +1,3 @@
+experiment,model,selected_before_test,train_batch,test_batch,test_n,MAE,RMSE,R2,MAPE_pct,selected_final,train_n
+main_46,Random Forest,False,1,2,39,148.36307751476295,157.70245899226362,0.48303223706963594,30.17924765152457,True,46
+sensitivity_36,Random Forest,True,1,2,39,146.31214994581094,154.76457637982514,0.5021142935825225,29.59250715427889,,36

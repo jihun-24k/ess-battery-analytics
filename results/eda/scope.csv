@@ -1,0 +1,4 @@
+batch,raw_cells,labelled_cells,missing_lifetime,flagged_quality_cells
+1,46,46,0,0
+2,47,39,8,0
+3,46,44,2,4

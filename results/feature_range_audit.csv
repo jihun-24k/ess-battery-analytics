@@ -1,0 +1,5 @@
+feature,train_min,train_max,test_min,test_max,test_outside_train_range
+delta_logvar,-5.014861042960788,-3.3503380515995875,-4.448585173324752,-3.085881724279185,11
+policy_C1,3.6,8.0,3.6,6.0,0
+policy_switch_SOC_pct,15.0,80.0,9.0,80.0,2
+policy_C2,3.0,5.4,3.0,6.0,4

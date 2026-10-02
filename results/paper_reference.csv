@@ -1,0 +1,8 @@
+source,split,model,RMSE,MAPE_pct,our_MAPE_minus_reference_pp,source_url
+Abstract,대표 test error,Headline,,9.1,21.079247651524568,https://www.nature.com/articles/s41560-019-0356-8
+Table 1,Primary (이상 셀 포함),Variance,138.0,14.7,15.47924765152457,https://web.mit.edu/braatzgroup/Severson_NatureEnergy_2019.pdf
+Table 1,Primary (이상 셀 포함),Discharge,91.0,13.0,17.17924765152457,https://web.mit.edu/braatzgroup/Severson_NatureEnergy_2019.pdf
+Table 1,Primary (이상 셀 포함),Full,118.0,14.1,16.079247651524568,https://web.mit.edu/braatzgroup/Severson_NatureEnergy_2019.pdf
+Table 1,Secondary,Variance,196.0,11.4,18.77924765152457,https://web.mit.edu/braatzgroup/Severson_NatureEnergy_2019.pdf
+Table 1,Secondary,Discharge,173.0,8.6,21.579247651524568,https://web.mit.edu/braatzgroup/Severson_NatureEnergy_2019.pdf
+Table 1,Secondary,Full,214.0,10.7,19.47924765152457,https://web.mit.edu/braatzgroup/Severson_NatureEnergy_2019.pdf

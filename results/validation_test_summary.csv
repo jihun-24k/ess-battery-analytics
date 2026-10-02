@@ -1,0 +1,7 @@
+stage,MAPE_or_gap,unit
+Train (Batch 1 CV),9.726555819644668,%
+Valid (Batch 1 Hold-out),8.443453918382492,%
+Test (Batch 2),30.17924765152457,%
+Gap (Train-Valid),-1.2831019012621763,%p
+Gap (Valid-Test),21.735793733142078,%p
+Gap (Target-Test),21.079247651524568,%p

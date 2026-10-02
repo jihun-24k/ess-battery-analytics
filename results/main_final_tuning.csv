@@ -1,0 +1,4 @@
+model,tuning_CV_MAE,train_MAE,best_params
+Ridge,68.02646347895875,56.679941954727475,"{""regressor__model__alpha"": 1}"
+Random Forest,72.0342802788613,38.16644844605713,"{""regressor__model__max_depth"": 5, ""regressor__model__min_samples_leaf"": 2}"
+XGBoost,73.99399642944336,23.080739974975586,"{""regressor__model__max_depth"": 3, ""regressor__model__min_child_weight"": 3}"

@@ -1,0 +1,106 @@
+experiment,fold,model,sample_id,batch_id,actual,predicted
+main_development,1,Ridge,b1_c5,1,1074,942.2523209611016
+main_development,1,Ridge,b1_c6,1,636,724.8362398030242
+main_development,1,Ridge,b1_c7,1,870,743.6547665502204
+main_development,1,Ridge,b1_c10,1,906,928.6719966176629
+main_development,1,Ridge,b1_c11,1,788,997.4378569632885
+main_development,1,Ridge,b1_c22,1,891,915.3454936549625
+main_development,1,Ridge,b1_c23,1,1014,963.1643711580178
+main_development,1,Random Forest,b1_c5,1,1074,1073.4203609441442
+main_development,1,Random Forest,b1_c6,1,636,894.3702952053635
+main_development,1,Random Forest,b1_c7,1,870,948.7191512376636
+main_development,1,Random Forest,b1_c10,1,906,894.5964001609563
+main_development,1,Random Forest,b1_c11,1,788,984.5937210361948
+main_development,1,Random Forest,b1_c22,1,891,904.4481470616987
+main_development,1,Random Forest,b1_c23,1,1014,917.6871099466816
+main_development,1,XGBoost,b1_c5,1,1074,1069.3974609375
+main_development,1,XGBoost,b1_c6,1,636,860.1643676757812
+main_development,1,XGBoost,b1_c7,1,870,860.1643676757812
+main_development,1,XGBoost,b1_c10,1,906,891.490966796875
+main_development,1,XGBoost,b1_c11,1,788,1058.550048828125
+main_development,1,XGBoost,b1_c22,1,891,903.1112670898438
+main_development,1,XGBoost,b1_c23,1,1014,903.1112670898438
+main_development,2,Ridge,b1_c8,1,879,926.37137033443
+main_development,2,Ridge,b1_c9,1,1054,953.814827726039
+main_development,2,Ridge,b1_c38,1,617,628.2415370920843
+main_development,2,Ridge,b1_c39,1,625,651.1826052318834
+main_development,2,Ridge,b1_c40,1,966,865.903670301862
+main_development,2,Ridge,b1_c41,1,1051,873.0145843111095
+main_development,2,Ridge,b1_c42,1,702,691.6789205905283
+main_development,2,Ridge,b1_c43,1,651,692.3466729633006
+main_development,2,Random Forest,b1_c8,1,879,898.1013506953344
+main_development,2,Random Forest,b1_c9,1,1054,900.9384905347534
+main_development,2,Random Forest,b1_c38,1,617,599.8749105448358
+main_development,2,Random Forest,b1_c39,1,625,599.8749105448358
+main_development,2,Random Forest,b1_c40,1,966,913.4241358494688
+main_development,2,Random Forest,b1_c41,1,1051,911.5332648680819
+main_development,2,Random Forest,b1_c42,1,702,678.0584461850316
+main_development,2,Random Forest,b1_c43,1,651,678.0584461850316
+main_development,2,XGBoost,b1_c8,1,879,880.7318115234375
+main_development,2,XGBoost,b1_c9,1,1054,880.8342895507812
+main_development,2,XGBoost,b1_c38,1,617,667.9411010742188
+main_development,2,XGBoost,b1_c39,1,625,667.9411010742188
+main_development,2,XGBoost,b1_c40,1,966,897.7322998046875
+main_development,2,XGBoost,b1_c41,1,1051,897.7322998046875
+main_development,2,XGBoost,b1_c42,1,702,672.7755126953125
+main_development,2,XGBoost,b1_c43,1,651,672.7755126953125
+main_development,3,Ridge,b1_c3,1,1226,1139.6296195994362
+main_development,3,Ridge,b1_c4,1,1227,1296.262453557155
+main_development,3,Ridge,b1_c26,1,870,791.2160970969167
+main_development,3,Ridge,b1_c27,1,842,820.8063058384752
+main_development,3,Ridge,b1_c30,1,709,746.7936240274204
+main_development,3,Ridge,b1_c31,1,876,762.4427338989218
+main_development,3,Ridge,b1_c44,1,616,597.4295335919057
+main_development,3,Ridge,b1_c45,1,599,599.1544226954147
+main_development,3,Random Forest,b1_c3,1,1226,928.5555538502623
+main_development,3,Random Forest,b1_c4,1,1227,928.5555538502623
+main_development,3,Random Forest,b1_c26,1,870,832.8524765148857
+main_development,3,Random Forest,b1_c27,1,842,867.0566888512585
+main_development,3,Random Forest,b1_c30,1,709,714.2397768010454
+main_development,3,Random Forest,b1_c31,1,876,714.2397768010454
+main_development,3,Random Forest,b1_c44,1,616,610.2713684594443
+main_development,3,Random Forest,b1_c45,1,599,610.2713684594443
+main_development,3,XGBoost,b1_c3,1,1226,972.7215576171875
+main_development,3,XGBoost,b1_c4,1,1227,972.7215576171875
+main_development,3,XGBoost,b1_c26,1,870,895.2666015625
+main_development,3,XGBoost,b1_c27,1,842,928.2730102539062
+main_development,3,XGBoost,b1_c30,1,709,654.1102294921875
+main_development,3,XGBoost,b1_c31,1,876,849.3675537109375
+main_development,3,XGBoost,b1_c44,1,616,612.195556640625
+main_development,3,XGBoost,b1_c45,1,599,612.195556640625
+main_development,4,Ridge,b1_c12,1,902,980.4455083932038
+main_development,4,Ridge,b1_c13,1,897,934.9825179104504
+main_development,4,Ridge,b1_c20,1,534,604.561157085531
+main_development,4,Ridge,b1_c21,1,559,598.3089919986663
+main_development,4,Ridge,b1_c32,1,731,637.7533721997133
+main_development,4,Ridge,b1_c33,1,757,645.8840126216355
+main_development,4,Random Forest,b1_c12,1,902,997.1392022869605
+main_development,4,Random Forest,b1_c13,1,897,984.6408477900522
+main_development,4,Random Forest,b1_c20,1,534,655.2721045826223
+main_development,4,Random Forest,b1_c21,1,559,655.2721045826223
+main_development,4,Random Forest,b1_c32,1,731,655.2721045826223
+main_development,4,Random Forest,b1_c33,1,757,655.4852711126382
+main_development,4,XGBoost,b1_c12,1,902,1002.8355712890625
+main_development,4,XGBoost,b1_c13,1,897,984.54443359375
+main_development,4,XGBoost,b1_c20,1,534,652.2340087890625
+main_development,4,XGBoost,b1_c21,1,559,652.2340087890625
+main_development,4,XGBoost,b1_c32,1,731,647.8072509765625
+main_development,4,XGBoost,b1_c33,1,757,647.8072509765625
+main_development,5,Ridge,b1_c16,1,862,935.6767653566097
+main_development,5,Ridge,b1_c17,1,857,862.5049355672313
+main_development,5,Ridge,b1_c24,1,1017,872.0174928326314
+main_development,5,Ridge,b1_c25,1,854,922.4391338916092
+main_development,5,Ridge,b1_c36,1,704,714.980122486174
+main_development,5,Ridge,b1_c37,1,648,716.9817348451348
+main_development,5,Random Forest,b1_c16,1,862,913.5904796570126
+main_development,5,Random Forest,b1_c17,1,857,883.1043517903015
+main_development,5,Random Forest,b1_c24,1,1017,879.5947654615118
+main_development,5,Random Forest,b1_c25,1,854,908.7520653851642
+main_development,5,Random Forest,b1_c36,1,704,699.7721433073556
+main_development,5,Random Forest,b1_c37,1,648,699.7721433073556
+main_development,5,XGBoost,b1_c16,1,862,1070.81396484375
+main_development,5,XGBoost,b1_c17,1,857,903.4976196289062
+main_development,5,XGBoost,b1_c24,1,1017,895.5799560546875
+main_development,5,XGBoost,b1_c25,1,854,990.8544921875
+main_development,5,XGBoost,b1_c36,1,704,708.5505981445312
+main_development,5,XGBoost,b1_c37,1,648,708.5505981445312

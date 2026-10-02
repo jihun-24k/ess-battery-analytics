@@ -1,0 +1,4 @@
+experiment,model,selected_before_test,train_batch,test_batch,test_n,MAE,RMSE,R2,MAPE_pct
+sensitivity_development_holdout,Ridge,False,1,1,8,86.84913698407205,99.48131666653703,-0.4716580342329182,11.204145552471648
+sensitivity_development_holdout,Random Forest,True,1,1,8,67.26795608962502,88.27039583579922,-0.1586546386123917,8.895431055369396
+sensitivity_development_holdout,XGBoost,False,1,1,8,91.36334228515625,108.10269542843352,-0.7377884321190622,12.164027476827426

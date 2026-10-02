@@ -1,0 +1,55 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Tool caches and notebook checkpoints
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv-cache/
+.cache/
+.coverage
+htmlcov/
+
+# Large raw datasets and reproducible feature outputs
+/data/archive/
+/data/processed/
+
+# Models are regenerated with python -m src.train
+*.joblib
+*.pkl
+*.pickle
+
+# Historical copies, scratch notebooks, and local working outputs
+/notebooks/archive/
+/results/archive/
+/*-scratch.ipynb
+/*_scratch.ipynb
+/scratch/
+/tmp/
+/analysis/
+/output/
+
+# Local editor/OS files and environment secrets
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Temporary files and build outputs
+*.log
+*.tmp
+*.bak
+*~
+/build/
+/dist/
+
+# Keep the three main notebooks, results CSV/JSON/Markdown, and report figures.
