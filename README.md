@@ -16,8 +16,6 @@ ESS는 BMS와 EMS를 통해 배터리 상태를 감시하고 충·방전 전략�
 - **최종 모델:** Random Forest Regressor
 - **주 평가 지표:** MAPE
 
-본 프로젝트의 Batch 2 파일은 원논문 최초 두 배치 중 두 번째 배치(`2017-06-30`)와 다르다. 따라서 원논문 성능은 동일 조건 재현 결과가 아닌 참고 목표로 비교한다.
-
 ## 파일 구조
 
 GitHub에 공유하는 주요 파일은 다음과 같다. 성능·검증 근거가 담긴 CSV·JSON·보고서와 그래프는 함께 관리한다.
@@ -51,19 +49,6 @@ GitHub에 공유하는 주요 파일은 다음과 같다. 성능·검증 근거�
 └── README.md
 ```
 
-다음 파일은 로컬에 유지하며 `.gitignore`로 GitHub 업로드 대상에서 제외한다.
-
-| 제외 대상 | 이유 | 준비·재생성 방법 |
-|---|---|---|
-| `.venv/`, Python·도구 캐시, Jupyter 체크포인트 | 환경별 파일 또는 임시 산출물 | 환경 설치·실행 시 생성 |
-| `data/archive/` | 약 7.8GB의 원본 MAT 데이터 | [데이터 안내](data/README.md)의 파일을 로컬에 배치 |
-| `data/processed/` | 코드로 재생성 가능한 피처·메타데이터 | `02_feature_engineering.ipynb` 또는 `python -m src.features` |
-| `*.joblib`, `*.pkl`, `*.pickle` | 재생성 가능한 모델 바이너리 | `03_modeling.ipynb` 또는 `python -m src.train` |
-| `notebooks/archive/`, `results/archive/`, 루트 scratch 노트북 | 이전 버전·개인 실험 자료 | 로컬 보관 |
-| IDE 설정, OS 파일, `.env`, 로그·임시 파일 | 개인 환경·비밀 설정·실행 부산물 | 필요한 환경에서 별도 준비 |
-
-원본 데이터와 모델 바이너리는 저장소에 포함되지 않으므로, 새로 clone한 환경에서는 원본을 준비한 뒤 피처 생성과 모델 학습을 실행해야 한다. `.gitignore`는 이미 Git에서 추적 중인 파일을 자동으로 해제하지 않는다.
-
 ## 환경 설정
 
 검증 환경은 Python 3.11.15이다. 기존 `.venv`를 그대로 사용할 수 있다. 새 환경을 만들 때는 다음 명령을 실행한다.
@@ -75,7 +60,7 @@ uv venv --python 3.11
 uv pip install -r requirements.txt
 ```
 
-VS Code에서 `.venv`를 Jupyter 커널로 선택한 뒤 노트북을 **01 → 02 → 03** 순서로 Run All을 실행한다. 노트북이 프로젝트 루트를 찾아 `src`를 import하므로 프로젝트 루트와 `notebooks/` 양쪽에서 실행할 수 있다. 원본 위치·표본 제외 기준은 [data/README.md](data/README.md)에 설명하였다.
+VS Code에서 `.venv`를 Jupyter 커널로 선택한 뒤 노트북을 01 → 02 → 03 순서로 Run All을 실행한다. 노트북이 프로젝트 루트를 찾아 `src`를 import하므로 프로젝트 루트와 `notebooks/` 양쪽에서 실행할 수 있다. 원본 위치·표본 제외 기준은 [data/README.md](data/README.md)에 설명하였다.
 
 그래프 없이 피처 생성과 모델링을 실행하려면 프로젝트 루트에서 다음 명령을 사용한다.
 
@@ -177,8 +162,6 @@ Batch 1을 명목 Policy 그룹 단위로 **개발 35개·Hold-out 11개**로 �
 Batch 2 라벨은 fit·파라미터 튜닝에 사용하지 않았으나 최종 모델 종류 선정에는 사용하였다. 따라서 Batch 2 성능은 선정에 사용한 평가 결과이며 독립 최종 테스트와 구분한다. Batch 3은 EDA·피처 생성에만 사용하였으며 이번 학습·모델 선정·평가에는 사용하지 않았다. Batch 1 종단 점검 후보를 제외한 36개 민감도 실험은 주 실험과 별도로 제공하였다.
 
 ## 성능 결과
-
-### Index
 
 - **Train (Batch 1 CV):** Batch 1 내 Cross-Validation 평균 성능. 개발 35개에서 수행한 nested Policy GroupKFold(외부 5-fold·내부 3-fold)의 외부 검증 MAPE 평균이다.
 - **Valid (Batch 1 Hold-out):** Batch 1 내 Hold-out 검증 성능. 사전에 분리한 11개 셀을 개발 35개로 학습한 모델로 평가한다.
